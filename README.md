@@ -27,7 +27,10 @@ pip install -r requirements.txt
 > 1. Install chocolatey (just google it), then *Run with Administrator*
 > 2. Install ffmpeg `choco install ffmpeg`
 
-[5] Run the bot `python bot.py`
+[5] Run the bot 
+```python
+python bot.py
+```
 
 ## Support me:
 - https://ko-fi.com/ervankurniawan41

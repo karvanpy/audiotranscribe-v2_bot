@@ -8,6 +8,7 @@ I've been created the same project at the previous version that use `python-tele
 But, this is the new one I'll maintenance (sure :p), use `python-telegram-bot` version 20.2 that implement async/await according on their migrate changes.
 
 # what if i wanna make my own bot?
+0) Clone this repo `git clone https://github.com/karvanpy/audiotranscribe-v2_bot/`
 1) Create your bot at https://t.me/BotFather, then copy the bot api
 2) Paste to `credentials.py`
 3) Install the requirements `pip install requirements.txt`

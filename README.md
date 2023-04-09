@@ -4,7 +4,7 @@ Bring your audio file &amp; voice record into text in a seconds!
 
 Live: https://t.me/audiotranscribe_bot
 
-![](https://raw.githubusercontent.com/karvanpy/AudioTranscribe_bot/main/20220428_131842.jpg)
+![](https://raw.githubusercontent.com/karvanpy/audiotranscribe_bot/main/thumbnail - audiotranscribe_bot.jpg)
 
 ## How to Setup
 [0] Clone this repo 

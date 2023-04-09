@@ -162,7 +162,6 @@ async def tutorial(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """ Display the tutorial of the message """
     await update.message.reply_text(
         text="*How to use this bot?*\n\n"
-             "1) Just press /start\n"
              "1) Press /start\n"
              "2) Select the language: [INDONESIA] or [ENGLISH]\n"
              "3) Send the audio file or record it directly\n"
@@ -170,8 +169,7 @@ async def tutorial(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
              "5) The result will be sent to you!\n\n"
 
              "If you want to change the language from ENGLISH to INDONESIA (or vice versa):\n"
-             "1) Just press /start again.\n"
-             "2) Then, follow the same steps as before.\n\n",
+             "1) Just press /start again.\n",
         parse_mode="MARKDOWN",
     )
 
@@ -179,8 +177,7 @@ async def tutorial(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def get_total_usages(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """ Display the total number of usages """
     await update.message.reply_text(
-        text=f"*Total of Transcriptions*:\n"
-             f"{context.user_data['total_usages']}",
+        text=f"*Total of Transcriptions*: {context.user_data['total_usages']}",
         parse_mode="MARKDOWN",
     )
 

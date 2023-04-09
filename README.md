@@ -28,7 +28,7 @@ pip install -r requirements.txt
 > 2. Install ffmpeg `choco install ffmpeg`
 
 [5] Run the bot 
-```python
+```bash
 python bot.py
 ```
 
